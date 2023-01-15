@@ -1,0 +1,459 @@
+* {
+  margin: 0 auto;
+  max-width: 100%;
+  font-family: "Work Sans", sans-serif;
+}
+
+/* header css codes */
+
+header {
+  background: rgba(255, 144, 14, 0.1);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.nav {
+  display: flex;
+  margin: 45px 140px;
+}
+
+.nav-logo {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+}
+
+.nav-menu {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  margin-right: 35px;
+}
+
+/* banner section start  */
+
+.primary-btn {
+  color: #ffffff;
+  background: #ff900e;
+  border-radius: 8px;
+  padding: 20px 25px;
+  border: none;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.primary-btn:hover{
+    background: tomato;
+    transition: 0.4s ease-in;
+}
+
+.banner-texts {
+  text-align: center;
+  justify-content: center;
+  margin: 110px 530px;
+}
+
+.banner-heading {
+  font-weight: 700;
+  font-size: 64px;
+  color: #131313;
+}
+.banner-description {
+  margin: 32px 3px 32px 3px;
+}
+
+.banner-img {
+  margin: 45px 240px;
+  text-align: center;
+}
+
+/* banner section end  */
+
+/* features section start  */
+
+.section-features {
+  margin: 130px 300px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 70px;
+}
+
+.features-img {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  width: 50%;
+  height: 100%;
+}
+
+.features-texts {
+  align-items: center;
+  width: 50%;
+  height: 100%;
+}
+
+.features-heading {
+  color: #727272;
+  font-weight: 500;
+  font-size: 45px;
+}
+.features-heading-ofour {
+  color: #131313;
+  font-weight: 700;
+  font-size: 45px;
+}
+
+.features-heading-features {
+  color: #ff900e;
+  font-weight: 700;
+  font-size: 45px;
+}
+
+.features-description {
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+
+/* features section end  */
+
+/* experiance section start  */
+
+.experince {
+  display: flex;
+  margin: 130px 240px;
+  gap: 54px;
+  justify-content: center;
+}
+
+.exp-heading {
+  padding-left: 21px !important;
+  color: #131313;
+  font-weight: 700;
+  font-size: 45px;
+  border-left: 5px solid #ff900e;
+}
+
+.exp-description {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  margin-top: 24px;
+}
+
+.exp-left-two-box {
+  padding: 30px 42px 30px 30px;
+  background: #ffffff;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  margin-top: 30px;
+}
+
+.exp-left-box-heading {
+  font-weight: 600;
+  font-size: 20px;
+  color: #131313;
+}
+
+.exp-left-box-description {
+  color: #727272;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.exp-left-box-description {
+  color: #727272;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.experince-right {
+  width: 800px;
+  height: 1059px;
+}
+
+.exp-right {
+  background-image: url(/images/architect.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 708px;
+  height: 982px;
+}
+
+.exp-btn {
+  padding: 45px 42px;
+  font-weight: 700;
+  font-size: 65px;
+  background: #ff900e;
+  border-radius: 8px;
+  border: none;
+  color: #ffffff;
+  position: relative;
+  right: 40px;
+  top: 800px;
+}
+
+.exp-btn-txt {
+  font-weight: 500;
+  font-size: 25px;
+}
+
+/* experiance section end  */
+
+/* fact section start  */
+
+.fact-heading {
+  margin: 130px 240px;
+}
+
+.fact-tiitle {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+}
+
+.fact-des {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  margin-top: 24px;
+}
+
+.fact-carts {
+  margin: 100px 290px;
+  display: flex;
+}
+
+.cart {
+  text-align: center;
+  padding: 45px 35px;
+  border: 1px solid #ff900e;
+  border-radius: 8px;
+}
+
+.cart-number {
+  font-weight: 600;
+  font-size: 45px;
+  color: #424242;
+}
+
+.cart-tittle {
+  font-weight: 600;
+  font-size: 20px;
+  color: #727272;
+}
+
+.cart:hover{
+    background-color: #63c1ff;
+    transition: 0.5s ease-in;
+}
+
+
+/* extra section start  */
+ 
+.vision-section{
+    display: flex;
+    gap: 50px;
+    margin: 50px 240px;
+    align-items: center;
+}
+
+.vision-left{
+    width: 50%;
+}
+
+.vision-left img{
+    border-radius: 25px;
+}
+
+.vision-right{
+    width: 50%;
+}
+
+.vision-description{
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.vision-tittle{
+    font-weight: 900px;
+    font-size: 35px;
+    color: #424242;
+}
+
+.vision-description{
+    font-weight: 600px;
+    font-size: 21px;
+    color: #424242;
+}
+
+/* extra section end  */
+
+/* sponser section  start  */
+
+.sponser-section {
+  margin: 130px 240px;
+}
+
+.sponser-heading {
+  text-align: center;
+  justify-content: center;
+}
+
+.sponser-tittle {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+}
+
+.sponser-description {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  margin-top: 28px;
+}
+
+.sponser-brands {
+  margin-top: 80px;
+  text-align: center;
+  display: flex;
+  gap: 155px;
+}
+
+/* sponser section end  */
+
+/* footer section  start  */
+
+.footer-text {
+  font-weight: 400;
+  font-size: 20px;
+  color: #424242;
+  padding: 38px 410px;
+  background: #fff4e7;
+  border-radius: 8px;
+  text-align: center;
+  margin: 38px 150px;
+}
+
+/* footer section end  */
+
+/* Mobile responsive codes using jq  */
+
+@media only screen and (max-width: 576px) {
+ 
+
+  .nav {
+    display: flex;
+    margin: 0;
+  }
+
+  .nav-menu{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .banner-texts {
+    margin: 0;
+    padding: 20px;
+  }
+  .banner-heading {
+    font-size: 35px;
+  }
+  .banner-img {
+    width: 100%;
+    margin: 0;
+  }
+  .primary-btn {
+    margin-bottom: 40px;
+  }
+
+  .section-features {
+    margin: 0;
+    width: 100%;
+  }
+
+  .features {
+    flex-direction: column-reverse;
+  }
+
+  .features-texts {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .features-img {
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+  }
+
+  .experince {
+    width: 100%;
+    flex-direction: column-reverse;
+    margin: 20px;
+  }
+  .exp-left-one {
+    padding: 20px;
+  }
+
+  .exp-left-two {
+    padding: 20px;
+  }
+
+  .exp-btn {
+    right: 0;
+    top: 0;
+    text-align: center;
+  }
+
+  .fact-heading {
+    margin: 20px;
+  }
+
+  .fact-carts {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .sponser-section {
+    margin: 20px;
+  }
+
+  .sponser-brands {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .footer-text {
+    margin: 2px;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 12px;
+  }
+
+  .vision-section{
+    margin: 0;
+    flex-direction: column;
+}
+
+
+.vision-left{
+    margin: 01px;
+}
+
+.vision-left img{
+    border-radius: 25px;
+}
+ 
+    
+}
