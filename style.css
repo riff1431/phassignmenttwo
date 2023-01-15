@@ -181,7 +181,7 @@ header {
 }
 
 .exp-right {
-  background-image: url(/images/architect.png);
+  background-image: url(images/architect.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 708px;
