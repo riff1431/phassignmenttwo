@@ -45,9 +45,9 @@ header {
   font-size: 20px;
 }
 
-.primary-btn:hover{
-    background: tomato;
-    transition: 0.4s ease-in;
+.primary-btn:hover {
+  background: tomato;
+  transition: 0.4s ease-in;
 }
 
 .banner-texts {
@@ -251,48 +251,47 @@ header {
   color: #727272;
 }
 
-.cart:hover{
-    background-color: #63c1ff;
-    transition: 0.5s ease-in;
+.cart:hover {
+  background-color: #63c1ff;
+  transition: 0.5s ease-in;
 }
-
 
 /* extra section start  */
- 
-.vision-section{
-    display: flex;
-    gap: 50px;
-    margin: 50px 240px;
-    align-items: center;
+
+.vision-section {
+  display: flex;
+  gap: 50px;
+  margin: 50px 240px;
+  align-items: center;
 }
 
-.vision-left{
-    width: 50%;
+.vision-left {
+  width: 50%;
 }
 
-.vision-left img{
-    border-radius: 25px;
+.vision-left img {
+  border-radius: 25px;
 }
 
-.vision-right{
-    width: 50%;
+.vision-right {
+  width: 50%;
 }
 
-.vision-description{
-    margin-top: 50px;
-    margin-bottom: 70px;
+.vision-description {
+  margin-top: 50px;
+  margin-bottom: 70px;
 }
 
-.vision-tittle{
-    font-weight: 900px;
-    font-size: 35px;
-    color: #424242;
+.vision-tittle {
+  font-weight: 900px;
+  font-size: 35px;
+  color: #424242;
 }
 
-.vision-description{
-    font-weight: 600px;
-    font-size: 21px;
-    color: #424242;
+.vision-description {
+  font-weight: 600px;
+  font-size: 21px;
+  color: #424242;
 }
 
 /* extra section end  */
@@ -348,14 +347,12 @@ header {
 /* Mobile responsive codes using jq  */
 
 @media only screen and (max-width: 576px) {
- 
-
   .nav {
     display: flex;
     margin: 0;
   }
 
-  .nav-menu{
+  .nav-menu {
     display: flex;
     flex-direction: column;
   }
@@ -441,19 +438,16 @@ header {
     font-size: 12px;
   }
 
-  .vision-section{
+  .vision-section {
     margin: 0;
     flex-direction: column;
-}
+  }
 
-
-.vision-left{
+  .vision-left {
     margin: 01px;
-}
+  }
 
-.vision-left img{
+  .vision-left img {
     border-radius: 25px;
-}
- 
-    
+  }
 }
